@@ -106,7 +106,6 @@ public class AbsoluteDrive extends Command {
     }
 
     // Called every time the scheduler runs while the command is scheduled.
-    // Called every time the scheduler runs while the command is scheduled.
     @Override
     public void execute() {
         Boolean speedCutoff = speedCutoffSup.getAsBoolean();
